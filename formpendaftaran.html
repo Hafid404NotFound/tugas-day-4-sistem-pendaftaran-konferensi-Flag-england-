@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <div>
+        <ul>
+          <li><a href="Daftarpeserta.html">Lihat daftar Peserta</a></li>
+          <li><a href="formpendaftaran.html">lihat Form Pendaftaran</a></li>
+          <li><a href="flag-england.html">Bendera England</a></li>
+        </ul>
+      </div>
+    </div>
+    <h2>Form Pendaftaran</h2>
+
+    <form action="formpendaftaran.html" method="post">
+      <label for="nama-lengkap">Nama Lengkap</label>
+      <input
+        type="text"
+        name="nama-lengkap"
+        id="nama-lengkap"
+        placeholder="masukan nama lengkap anda"
+      />
+      <br />
+
+      <label for="email"> Email</label>
+      <input type="email" name="email" id="email" placeholder="masukan email" />
+      <br />
+
+      <label for="institusi">Institusi</label>
+      <input
+        type="text"
+        name="institusi"
+        id="institusi"
+        placeholder="ketikan asal institusi"
+      /><br />
+
+      <label for="keahlian">Bidang Keahlian</label>
+      <select name="keahlian" id="keahlian">
+        <option value="coding">Frontend</option>
+        <option value="coding">Backend</option>
+        <option value="coding">Fullstack Developer</option>
+        <option value="coding">UI/UX designer</option>
+        <option value="coding">Digital Marketing</option>
+        <br /></select
+      ><br />
+      <input type="submit" value="Kirim" />
+    </form>
+  </body>
+</html>
